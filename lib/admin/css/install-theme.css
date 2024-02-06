@@ -1,0 +1,196 @@
+.multi_step_form {
+  background: #f6f9fb;
+  display: block;
+  overflow: hidden;
+}
+.multi_step_form #msform {
+  text-align: center;
+  position: relative;
+  padding-top: 50px;  
+  margin: 0 auto;
+  background: #ffffff;
+  z-index: 1;
+}
+.multi_step_form #msform .tittle {
+  text-align: center;
+  padding-bottom: 55px;
+}
+.multi_step_form #msform .tittle h2 {
+  font: 500 24px/35px "Roboto", sans-serif;
+  color: #3f4553;
+  padding-bottom: 5px;
+}
+.multi_step_form #msform .tittle p {
+  font: 400 16px/28px "Roboto", sans-serif;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset {
+  border: 0;
+  position: relative;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+.multi_step_form #msform fieldset {
+  display: none;
+}
+.multi_step_form #msform fieldset.active{
+  display: block;
+}
+.multi_step_form #msform fieldset.loading{
+	opacity: 0.3;
+}
+.multi_step_form #msform fieldset h3 {
+  font: 500 18px/35px "Roboto", sans-serif;
+  color: #3f4553;
+}
+.multi_step_form #msform fieldset h6 {
+  font: 400 15px/28px "Roboto", sans-serif;
+  color: #5f6771;
+  padding-bottom: 30px;
+}
+.multi_step_form #msform #progressbar {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.multi_step_form #msform #progressbar.grid-3 li{
+	 width: calc(100%/3);
+}
+.multi_step_form #msform #progressbar li {
+  list-style-type: none;
+  color: #99a2a8;
+  font-size: 9px;
+  width: calc(100%/4);
+  float: left;
+  position: relative;
+  font: 500 13px/1 "Roboto", sans-serif;
+}
+
+.multi_step_form #msform #progressbar li:before {
+  content: attr(data-step);
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  background: #eaf0f4;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+  font-size: 20px;
+  font-weight: bold;
+}
+.multi_step_form #msform #progressbar li:after {
+  content: "";
+  width: 100%;
+  height: 10px;
+  background: #eaf0f4;
+  position: absolute;
+  left: -50%;
+  top: 21px;
+  z-index: -1;
+}
+.multi_step_form #msform #progressbar li:last-child:after {
+  width: 150%;
+}
+.multi_step_form #msform #progressbar li.active {
+  color: #5cb85c;
+}
+.multi_step_form #msform #progressbar li.active:before, .multi_step_form #msform #progressbar li.active:after {
+  background: #5cb85c;
+  color: white;
+}
+.multi_step_form #msform .action-button {
+  background: #5cb85c;
+  color: white;
+  border: 0 none;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 130px;
+  font: 700 14px/40px "Roboto", sans-serif;
+  border: 1px solid #5cb85c;
+  margin: 0 5px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.multi_step_form #msform .action-button:hover, .multi_step_form #msform .action-button:focus {
+  background: #405867;
+  border-color: #405867;
+}
+.multi_step_form #msform .previous {
+  background: transparent;
+  color: #99a2a8;
+  border-color: #99a2a8;
+}
+.multi_step_form #msform .button-back{
+	text-decoration: none;
+	padding: 0 15px;
+}
+.multi_step_form #msform .previous:hover, .multi_step_form #msform .previous:focus {
+  background: #405867;
+  border-color: #405867;
+  color: #fff;
+}
+.ocdi.wrap.about-wrap{
+	width: 100%;
+	margin: 30px 0;
+	max-width: unset;
+}
+#msform .ocdi__gl .ocdi__gl-item-container{
+	margin: 0;
+}
+#msform .ocdi__gl .ocdi__gl-item-container .ocdi__gl-item{
+	display: none;
+}
+#msform .ocdi__gl .ocdi__gl-item-container .ocdi__gl-item.active{
+	display: inline-block;
+	width: 60%;
+	margin: 0;
+	float: none;
+}
+.multi_step_form #msform .action-button.hidden{
+	display: none;
+}
+#msform .notice , #msform .ocdi__intro-text, #msform .wp-list-table, #msform .update-php, #msform .wrap, #msform .ocdi .ocdi__gl-item-footer{
+	text-align: start;
+}
+#msform .ocdi.wrap{
+	text-align: center;
+}
+#msform .update-php h2{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+#msform .update-php .updated{
+	margin-bottom: 20px;
+}
+#msform #sw_purchase_code{
+	width: 60%;
+	padding: 10px;
+}
+#msform .ocdi .footer-bottom select{
+	min-width: 220px;
+}
+.grid-homepages{
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	padding: 0;
+	margin: 0;
+	grid-column-gap: 30px;
+	grid-row-gap: 30px;
+}
+.sw-activation{
+	max-width: 100%;
+	margin-bottom: 40px;
+}
+.sw-activation .grid-homepages >li{
+	display: block;
+	border: 1px solid #ddd;
+	cursor: pointer;
+}
+.sw-activation .grid-homepages >li.active{
+	border-color: #5cb85c;
+	border-width: 2px;
+}
+.sw-activation .grid-homepages >li img{
+	max-width: 100%;
+}

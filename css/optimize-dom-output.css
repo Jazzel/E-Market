@@ -1,0 +1,69 @@
+.header-style1>.elementor-container>.elementor-column>.elementor-element-populated {
+  padding: 0 !important;
+}
+.home5-col-left {
+  padding: 10px;
+}
+.header-style12 .header-top-elementor12 {
+  border-bottom: 0;
+}
+.header-style12 .header-top-elementor12 >.elementor-container {
+  position: relative;
+}
+.header-style12 .header-top-elementor12 >.elementor-container:before {
+  content: '';
+  height: 1px;
+  width: 98%;
+  background-color: #e9e9e9;
+  position: absolute;
+  left: 15px;
+  bottom: 0;
+}
+.home-style13 .footer-coppyright-13>.elementor-column-gap-default .elementor-column>.elementor-element-populated {
+  padding: 0;
+}
+.home-style17 .header-top-elementor19 .top-right1>.elementor-widget-wrap {
+  padding: 20px 0 !important;
+}
+.top-right1>div {
+  align-items: center;
+  align-content: center;
+}
+.top-left1>div {
+  align-items: center;
+  align-content: center;
+}
+.header-mid-elementor24 .top-login {
+  padding: 0 !important;
+}
+.header-mid-elementor24 .elementor-widget-wp-widget-nav_menu ul.menu {
+  margin: 0 !important;
+}
+@media (max-width: 1199px) {
+  .header-top-elementor29 >.elementor-column-gap-default>.elementor-column>.elementor-element-populated,
+  .header-mid-elementor29 >.elementor-column-gap-default>.elementor-column>.elementor-element-populated,
+  .header-bottom-elementor29 >.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 0 15px !important;
+  }
+}
+@media (max-width: 480px) {
+  .header-top-elementor30>.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding: 10px 0 !important;
+  }
+  .header-bottom-elementor33 .top-left1>.elementor-element-populated {
+    justify-content: space-between !important;
+  }
+  .header-bottom-elementor33 .top-left1>.elementor-element-populated>div {
+    width: auto !important;
+  }
+  .header-bottom-elementor33 .icon-sidebar {
+    margin: 20px 30px 21px 15px !important;
+  }
+  .header-mid-elementor24 .top-form.top-search {
+    margin: 0 0 20px;
+  }
+  .header-bottom-elementor37 .top-left1>.elementor-element-populated>div,
+  .header-bottom-elementor37 .top-right1>.elementor-element-populated>div {
+    width: auto !important;
+  }
+}
